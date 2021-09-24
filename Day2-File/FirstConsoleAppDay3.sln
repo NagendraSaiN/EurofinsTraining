@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstConsoleAppDay3", "FirstConsoleAppDay3\FirstConsoleAppDay3.csproj", "{4503D43D-C750-4C6B-8DDE-8B8C6A7BFD36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileLibrary", "MobileLibrary\MobileLibrary.csproj", "{54B97A24-F300-42AA-9001-9EABA41A0730}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4503D43D-C750-4C6B-8DDE-8B8C6A7BFD36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4503D43D-C750-4C6B-8DDE-8B8C6A7BFD36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4503D43D-C750-4C6B-8DDE-8B8C6A7BFD36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4503D43D-C750-4C6B-8DDE-8B8C6A7BFD36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54B97A24-F300-42AA-9001-9EABA41A0730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54B97A24-F300-42AA-9001-9EABA41A0730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54B97A24-F300-42AA-9001-9EABA41A0730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54B97A24-F300-42AA-9001-9EABA41A0730}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA3D245E-C55B-4696-9799-771612C440A6}
+	EndGlobalSection
+EndGlobal
