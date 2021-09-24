@@ -1,0 +1,49 @@
+Source:838927491
+Destination:38798421
+Date:23-8-2021 12-23-12
+Call status:Missed
+
+Source:838927492
+Destination:38798422
+Date:23-8-2021 12-23-12
+Call status:Success
+
+Source:838927493
+Destination:38798423
+Date:23-8-2021 12-23-12
+Call status:Failed
+
+Source:838927494
+Destination:38798424
+Date:23-8-2021 12-23-12
+Call status:Failed
+
+Source:838927495
+Destination:38798425
+Date:23-8-2021 12-23-12
+Call status:Success
+
+Source:838927496
+Destination:38798426
+Date:23-8-2021 12-23-12
+Call status:Failed
+
+Source:838927497
+Destination:38798427
+Date:23-8-2021 12-23-12
+Call status:Missed
+
+Source:838927498
+Destination:38798428
+Date:23-8-2021 12-23-12
+Call status:Failed
+
+Source:838927499
+Destination:38798429
+Date:23-8-2021 12-23-12
+Call status:Missed
+
+Source:838927410
+Destination:38798430
+Date:23-8-2021 12-23-12
+Call status:Failed

@@ -1,0 +1,40 @@
+File:
+Course Details
+**************
+2
+Register number : 123
+Course name : Btech
+Course title : ECE
+Register number : 134
+Course name : BE
+Course title : C#
+ee
+tronics
+er
+[15:33] Perumalsamy, Ganesan (Guest)
+    
+6. Write a program in C# Sharp to read a specific line from a file.
+Test Data and Expected Output :
+Input number of lines to write in the file :3
+Input 3 strings below:
+Input line 1 : line1
+Input line 2 : line2
+Input line 3 : line3
+Input which line you want to display :3
+
+The content of the line 3 of the file mytest.txt is :
+line3
+​[15:33] Perumalsamy, Ganesan (Guest)
+    
+7. Write a program in C# Sharp to count the number of lines in a file.
+Expected Output:
+
+Here is the content of the file mytest.txt :
+test line 1
+test line 2
+Test line 3
+test line 4
+test line 5
+Test line 6
+The number of lines in the file mytest.txt is : 6
+
