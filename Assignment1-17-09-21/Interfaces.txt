@@ -1,0 +1,36 @@
+Interface:
+
+Interface is a blueprint of class but not exactly the same.In terms of syntax both are same but are fundamentally 
+different. There is no instantiation in interfaces as in class and can't have any method body.There won't be any 
+processed changes to the previous dependent code .These define methods, events and properties which are the only members of it.
+Only the declaration of members is contained in interface.These are generally public, there's no need to 
+specify the type of access modifers.If any access modifier is used inside an interface an error is thrown.
+An interface contains definitions for a group of related functionalities that a non-abstract class or a
+struct must implement. An interface may define static methods, which must have an implementation.
+
+Declaration Syntax :
+
+public interface Iinterface_name
+{
+     void method_name()
+    // declare Events
+    // declare indexers
+    // declare methods 
+    // declare properties
+}
+
+In the label mentioned above, "I" represents an interface.Generally it is used to represent the presence of an interface 
+in the program.
+
+Implemamtation syntax:
+class class_name : interface_name
+
+
+Benefits of interface:
+
+Interfaces allow us to create loosely connected applications.
+It is used to acheive multiple inheritance which can't be done by class.
+It breaks up complex designs.
+Hiding the implementation.
+
+ 
