@@ -1,0 +1,4 @@
+DMBS
+RDMBS
+DDL-Data Defenition Language---Create , Alter, 
+DML - Data Manipulation Language
