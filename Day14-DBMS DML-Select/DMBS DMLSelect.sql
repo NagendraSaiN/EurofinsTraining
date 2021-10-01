@@ -3,7 +3,7 @@ create table Customer(
 	cust_Name varchar(30),
 	city varchar(15),
 	grade numeric(3),
-	salesman_ID numeric(5))
+	salesman_ID numeric(5))	
 
 create table Salesman(
 	salesman_ID numeric(5) primary key,
@@ -71,4 +71,11 @@ Select customer_ID,ord_date,MAX(purch_amt) from Orders Group By customer_ID,ord_
 Select customer_ID,ord_date,MAX(purch_amt) from Orders Group By customer_ID,ord_date Having MAX(purch_amt) Between 2000 and 6000;
 Select customer_ID,ord_date,MAX(purch_amt) from Orders Group By customer_ID,ord_date Having MAX(purch_amt) = 2000 or MAX(purch_amt) = 3000 or MAX(purch_amt) = 5760 or MAX(purch_amt) = 6000;
 Select customer_ID,MAX(purch_amt) from Orders Group By customer_ID Having customer_ID between 3002 and 3007;
-
+Select * from Orders where salesman_ID = (Select Salesman_ID from Salesman where Name = 'Paul Adam');
+Select * from Orders where salesman_ID = (Select Salesman_ID from Salesman where City = 'London');
+Select * from Orders where customer_ID = (Select customer_ID from Customer where customer_ID = 3007);
+Select * from Orders where purch_amt> (Select AVG(purch_amt) from Orders where ord_date = '2012-10-10')
+Select * from Orders where customer_ID IN (Select customer_ID from Customer where city = 'New York');
+Select Commission from Salesman where salesman_ID= (Select salesman_ID from Customer where city = 'Paris');
+Select cust_Name from Customer where customer_ID=(Select salesman_ID - 2001 from Salesman where Name = 'Mc Lyon');
+Select grade,COUNT(customer_ID) from Customer Group by grade Having grade>(Select AVG(grade) from Customer where city = 'New York');
